@@ -3,44 +3,36 @@
   Source of truth: https://github.com/QuocTranWorkspace/QuocTranWorkspace
 -->
 
-### Hi, I'm Quoc 👋
+## Quoc Tran Trung
 
-Full-Stack Engineer · Technical Lead at PathTech JSC, based in Hanoi.
+Full-Stack Engineer · Technical Lead — Hanoi, Vietnam.
 
-I ship production systems end-to-end — edge AI on NVIDIA Jetson, multi-tenant cloud platforms, and developer tooling that helps small teams move fast. Currently leading the AI + cloud workstreams that put computer-vision safety detection into airports and substations across Vietnam.
+I architect and ship production systems end-to-end: edge AI on NVIDIA Jetson at airports and substations, multi-tenant cloud platforms with operator dashboards and mobile apps, and local-first developer tooling. I lead small-to-medium teams and care about the boring infrastructure that keeps a product calm at the surface — observability, deploys, on-call rituals, the seams between services.
 
----
-
-#### 🌐 Portfolio
-
-**[quoctranworkspace.github.io](https://quoctranworkspace.github.io/)** — the full story, with live screenshots and deep dives on every project below.
-
-#### 🚧 What I'm shipping
-
-- **AIBox** — edge AI on NVIDIA Jetson for Petrolimex Aviation (Noi Bai International Airport) and EVN (Mo Lao 110 kV substation). 18 model types, 91 REST endpoints, four CCTV streams per box, real-time PPE / oil-spill / smoke / plate / face detection.
-- **AICloud** — the multi-tenant SaaS that manages the AIBox fleet. 10 NestJS microservices, Keycloak auth, NATS event bus, MQTT to the edge, real-time WebSocket push, React 19 web + React Native mobile.
-- **Unlimit · Keanu · Swisslife** — WhatsApp-at-agency-scale, a luxury villa launch reservation platform, and an insurance document-dispatch microservices stack.
-
-#### 💾 Open source
-
-- **[mnemo](https://github.com/mmct-jsc/mnemo)** — local-first knowledge memory for Claude Code. Hybrid Graph-RAG, six-term scoring, 100 % top-1 accuracy on the curated benchmark, 17 ms median query. Live demo at [mmct-jsc.github.io/mnemo](https://mmct-jsc.github.io/mnemo/). The portfolio shows the live version badge.
-
-#### 🧰 What I reach for
-
-`Python · FastAPI · NestJS · Go · TypeScript · React 19 · React Native · PostgreSQL + pgvector · Redis · NATS · Kong · Docker Swarm · Kubernetes · NVIDIA Jetson · YOLO · WebRTC`
-
-#### 📫 Reach me
-
-[![Email](https://img.shields.io/badge/Email-quoctranworkspace@gmail.com-6CE5C7?style=flat-square&logo=gmail&logoColor=white&labelColor=0B0D12)](mailto:quoctranworkspace@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-quoc--tran--trung-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0B0D12)](https://www.linkedin.com/in/quoc-tran-trung-070b34268/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-quoctranworkspace.github.io-6CE5C7?style=flat-square&logoColor=white&labelColor=0B0D12)](https://quoctranworkspace.github.io/)
-
-Open to **Full-Stack Engineer** and **Technical Lead** roles. Hanoi-based, GMT+7, response within one working day.
+**Portfolio → [quoctranworkspace.github.io](https://quoctranworkspace.github.io/)** &nbsp;·&nbsp; the full story with live screenshots and deep dives per project.
 
 ---
 
-<sub>
+### Currently shipping
 
-![](https://github-readme-stats.vercel.app/api?username=QuocTranWorkspace&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&show_icons=true)
+| Project | What it is |
+|---|---|
+| **AIBox** | Production edge AI on NVIDIA Jetson — 18 model types, 91 REST endpoints, four CCTV streams per device. Live at Petrolimex Aviation, Noi Bai International Airport and EVN's 110 kV Mo Lao substation. |
+| **AICloud** | Multi-tenant SaaS that manages the AIBox fleet — 10 NestJS microservices behind Kong, Keycloak auth, NATS event bus, MQTT to the edge, real-time WebSocket push. React 19 dashboard + React Native operator app. |
+| **Unlimit** | WhatsApp at agency scale — multi-tenant Postgres (schema per agency), GoHighLevel CRM integration, Bull queue worker, session backup to R2. |
+| **Keanu Residences** | Reservation platform for a luxury villa launch in Bali — Redis-locked atomic unit booking, Stripe payments, Socket.io live availability. |
+| **Swisslife** | Document-dispatch platform behind Kong — ten services (9 Go + 1 NestJS), NATS JetStream event bus, end-to-end audit trail. |
 
-</sub>
+### Open source
+
+**[mnemo](https://github.com/mmct-jsc/mnemo)** — local-first knowledge memory for Claude Code. Hybrid Graph-RAG, six-term scoring, 100 % top-1 accuracy on the benchmark, 17 ms median query. Live demo: [mmct-jsc.github.io/mnemo](https://mmct-jsc.github.io/mnemo/).
+
+### Engineering surface
+
+Backend: Python · FastAPI · NestJS · Go · Spring Boot &nbsp;·&nbsp; Frontend: React 19 · React Native · Vite · Tailwind &nbsp;·&nbsp; Data: PostgreSQL + pgvector · SQLite + sqlite-vec · MongoDB · Redis &nbsp;·&nbsp; AI/ML: YOLO v8/v11 · pgvector · sentence-transformers · OpenAI · Llama 3.1 &nbsp;·&nbsp; Infra: Docker Swarm · Kubernetes (GKE) · Kong · Nginx · HAProxy · NATS · MQTT (EMQX) · NVIDIA Jetson (CUDA 12.8) &nbsp;·&nbsp; Architecture: Clean Architecture · DDD · Microservices · Event-driven · Multi-tenant SaaS · Local-first.
+
+### Contact
+
+[**Email**](mailto:quoctranworkspace@gmail.com) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/quoc-tran-trung-070b34268/) &nbsp;·&nbsp; [**Portfolio**](https://quoctranworkspace.github.io/)
+
+Open to Full-Stack Engineer and Technical Lead roles. GMT+7, response within one working day.
