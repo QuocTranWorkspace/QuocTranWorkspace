@@ -25,7 +25,9 @@ I architect and ship production systems end-to-end: edge AI on NVIDIA Jetson at 
 
 ### Open source
 
-**[mnemo](https://github.com/mmct-jsc/mnemo)** — local-first knowledge memory for Claude Code. Hybrid Graph-RAG, six-term scoring, 100 % top-1 accuracy on the benchmark, 17 ms median query. Live demo: [mmct-jsc.github.io/mnemo](https://mmct-jsc.github.io/mnemo/).
+**[mnemo](https://github.com/mmct-jsc/mnemo)** — local-first knowledge memory for Claude Code. Hybrid Graph-RAG, six-term scoring, 100 % top-1 accuracy on the curated benchmark, 17 ms median query. Live demo: [mmct-jsc.github.io/mnemo](https://mmct-jsc.github.io/mnemo/).
+
+If mnemo's saved you a re-prompt or two, **[ko-fi.com/quoctrantrung](https://ko-fi.com/quoctrantrung)** is the kindest way to say so — and a ⭐ on the repo is just as welcome.
 
 ### Engineering surface
 
@@ -33,6 +35,6 @@ Backend: Python · FastAPI · NestJS · Go · Spring Boot &nbsp;·&nbsp; Fronten
 
 ### Contact
 
-[**Email**](mailto:quoctranworkspace@gmail.com) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/quoc-tran-trung-070b34268/) &nbsp;·&nbsp; [**Portfolio**](https://quoctranworkspace.github.io/)
+[**Email**](mailto:quoctranworkspace@gmail.com) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/quoc-tran-trung-070b34268/) &nbsp;·&nbsp; [**Portfolio**](https://quoctranworkspace.github.io/) &nbsp;·&nbsp; [**Ko-fi**](https://ko-fi.com/quoctrantrung)
 
 Open to Full-Stack Engineer and Technical Lead roles. GMT+7, response within one working day.
